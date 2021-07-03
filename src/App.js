@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import { Provider } from 'react-redux';
+import { createMuiTheme, makeStyles, ThemeProvider } from '@material-ui/core/styles';
+import { orange } from '@material-ui/core/colors';
+import routes from './routes.es6';
+import { store } from './store.es6';
+
+const theme = createMuiTheme({
+  status: {
+    danger: orange[500],
+  },
+});
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ThemeProvider theme={theme}>
+        <Provider store={store}>{routes}</Provider>
+      </ThemeProvider>
     </div>
   );
 }
