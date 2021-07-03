@@ -1,6 +1,6 @@
 import './App.css';
 import { Provider } from 'react-redux';
-import { createMuiTheme, makeStyles, ThemeProvider } from '@material-ui/core/styles';
+import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 import { orange } from '@material-ui/core/colors';
 import routes from './routes.es6';
 import { store } from './store.es6';

@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import TextField from '@material-ui/core/TextField';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Checkbox from '@material-ui/core/Checkbox';
-import Button from '@material-ui/core/Button';
 
 class CreateGroup extends Component {
 	constructor(props) {

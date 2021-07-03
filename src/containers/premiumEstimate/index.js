@@ -2,14 +2,12 @@ import React, { Component } from 'react';
 import { hashHistory } from 'react-router';
 import { connect } from 'react-redux';
 import MobileStepper from '@material-ui/core/MobileStepper';
-import { makeStyles, useTheme } from '@material-ui/core/styles';
 import { withStyles } from '@material-ui/core/styles';
 import BritamQuote from '../../components/BritamQuote';
 import { getGroupProductsRequest, saveQuoteInStateRequest } from './actions.es6';
 
 
 import Grid from '@material-ui/core/Grid';
-import { green } from '@material-ui/core/colors';
 
 const useStyles = theme => ({
 	root: {
