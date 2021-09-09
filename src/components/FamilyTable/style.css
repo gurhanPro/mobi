@@ -1,0 +1,26 @@
+.reg-status{
+  text-align: right;
+  color: black;
+  font-weight: 500;
+}
+
+.reg-status-value{
+  color: green;
+}
+
+.gridItem{
+  margin-bottom: 20%;
+}
+
+.accordion-heading{
+    font-size: 15rem;
+    flex-basis: '33.33%';
+    flex-shrink: 0;
+    color: red;
+}
+
+.accordion-secondary-heading{
+  font-size: 15rem;
+  color: blue;
+  margin-left: 1%;
+}

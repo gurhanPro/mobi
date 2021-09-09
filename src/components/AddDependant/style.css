@@ -1,0 +1,13 @@
+.reg-status{
+  text-align: right;
+  color: black;
+  font-weight: 500;
+}
+
+.reg-status-value{
+  color: green;
+}
+
+.gridItem{
+  margin-bottom: 20%;
+}

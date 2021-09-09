@@ -1,0 +1,10 @@
+.number{
+  width: 15%;
+  /* padding: 12px 20px; */
+  margin: 0px 26px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid grey !important;
+  background-color: inherit;
+  color: blue;
+}
