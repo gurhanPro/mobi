@@ -6,7 +6,7 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 import './style.css'
 import { Grid } from '@material-ui/core';
-import { MEMBER_TYPES, GENDER_TYPES } from '../../lib/constants';
+import { MEMBER_TYPES } from '../../lib/constants';
 class FamilyTable extends Component {
 	constructor(props) {
 		super(props);
@@ -78,48 +78,7 @@ class FamilyTable extends Component {
 
 	render() {
 		const familyMembers = this.props.familyMembers || [];
-		const familyList = [
-			{
-				first_name: 'ziyaad',
-				middle_name: 'ahmed',
-				last_name: 'gurhan',
-				dob: '1991-01-01',
-				gender: 'Male',
-				phone_number: '034324324324',
-				national_id: '123455342345',
-				relationShip: 'Principal'
-			},
-			{
-				first_name: 'ziyaad',
-				middle_name: 'ahmed',
-				last_name: 'gurhan',
-				dob: '1991-01-01',
-				gender: 'Male',
-				phone_number: '034324324324',
-				national_id: '123455342345',
-				relationShip: 'spouse'
-			},
-			{
-				first_name: 'ziyaad',
-				middle_name: 'ahmed',
-				last_name: 'gurhan',
-				dob: '1991-01-01',
-				gender: 'Male',
-				phone_number: '034324324324',
-				national_id: '123455342345',
-				relationShip: 'child'
-			},
-			{
-				first_name: 'ziyaad',
-				middle_name: 'ahmed',
-				last_name: 'gurhan',
-				dob: '1991-01-01',
-				gender: 'Male',
-				phone_number: '034324324324',
-				national_id: '123455342345',
-				relationShip: 'parent'
-			}
-		]
+		
 		return (
 			<div className="create-group">
 				<div className="header">

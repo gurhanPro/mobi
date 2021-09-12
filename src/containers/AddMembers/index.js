@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import * as actions from './actions.es6'
-import { MEMBER_TYPES, GENDER_TYPES } from '../../lib/constants';
+import { MEMBER_TYPES } from '../../lib/constants';
 import AddSpouse from '../../components/AddSpouse';
 import AddChild from '../../components/AddChild';
 import AddParentInLaw from '../../components/AddParentInLaw';

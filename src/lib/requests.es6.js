@@ -31,10 +31,10 @@ export function getGroupProducts() {
 
 export function getToken() {
 
-  const auth = {
-    username: 'BaobabClient',
-    password: 'Client@#65467'
-  }
+  // const auth = {
+  //   username: 'BaobabClient',
+  //   password: 'Client@#65467'
+  // }
   return crudeInstance.post(`oauth/token?grant_type=client_credentials&scope=all`, {}, {
     auth: {
       username: 'BaobabClient',

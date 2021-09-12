@@ -3,8 +3,6 @@ import Confetti from "react-confetti";
 
 
 import './style.css'
-import { Grid } from '@material-ui/core';
-import { MEMBER_TYPES, GENDER_TYPES } from '../../lib/constants';
 class Congrats extends Component {
 	constructor(props) {
 		super(props);
