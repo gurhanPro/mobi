@@ -28,7 +28,6 @@ export default function configureStore() {
 
   // start running all sagas composed in the rootSaga
   sagaMiddleware.run(rootSaga);
-console.log('store', store);
   return store;
 }
 

@@ -1,10 +1,14 @@
-import { getGroupProductsRequestWatcher } from './containers/premiumEstimate/saga.es6';
+import { getTokenRequestWatcher, getGroupByGroupLinkRequestWatcher, getGroupMembersByGroupIdRequestWatcher, addFamilyToGroupRequestWatcher } from './containers/AddMembers/saga.es6';
+import { getGroupProductsRequestWatcher,  } from './containers/premiumEstimate/saga.es6';
 
 // single entry point to start all Sagas at once
 export default function* rootSaga() {
-  console.log('in root saga');
   yield [
-    getGroupProductsRequestWatcher()
+    getGroupProductsRequestWatcher(),
+    getGroupByGroupLinkRequestWatcher(),
+    getGroupMembersByGroupIdRequestWatcher(),
+    getTokenRequestWatcher(),
+    addFamilyToGroupRequestWatcher(),
   ];
 }
 

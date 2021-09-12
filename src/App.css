@@ -51,4 +51,11 @@
   /* margin-bottom: 5%; */
   margin: auto;
 }
-
+.next-buttons{
+  background-color: green;
+  width: 100%;
+  padding: 2% 18%;
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 3%;
+}

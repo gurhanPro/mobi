@@ -1,3 +1,29 @@
+export const GET_GROUP_BY_GROUP_LINK_REQUEST = 'get-group-by-group-link-req';
+export const GET_GROUP_BY_GROUP_LINK_SUCCESS = 'get-group-by-group-link-success';
+export const GET_GROUP_BY_GROUP_LINK_FAILURE = 'get-group-by-group-link-fail';
+
+export const GET_GROUP_MEMBERS_BY_GROUP_ID_REQUEST = 'get-group-members-by-group-id-req';
+export const GET_GROUP_MEMBERS_BY_GROUP_ID_SUCCESS = 'get-group-members-by-group-id-success';
+export const GET_GROUP_MEMBERS_BY_GROUP_ID_FAILURE = 'get-group-members-by-group-id-fail';
+
+export const GET_TOKEN_REQUEST = 'get-token-req';
+export const GET_TOKEN_SUCCESS = 'get-token-suc';
+export const GET_TOKEN_FAILURE = 'get-token-fail';
+
+export const ADD_FAMILY_TO_GROUP_REQUEST = 'add-family-to-group-req';
+export const ADD_FAMILY_TO_GROUP_SUCCESS = 'add-family-to-group-suc';
+export const ADD_FAMILY_TO_GROUP_FAILURE = 'add-family-to-group-fail';
+
+export const SAVE_MEMBER_REQUEST = 'save-family-req';
+export const SAVE_MEMBER_SUCCESS = 'save-family-suc';
+export const SAVE_MEMBER_FAILURE = 'save-family-fail';
+
+export const RESET_SAVED_FAMILY = 'reset-saved-family';
+
+
+
+
+
 export const LOGIN_REQUESTED = 'login-requested';
 export const LOGIN__SUCCEEDED = 'login-succeeded';
 export const LOGIN__FAILED = 'login-failed';

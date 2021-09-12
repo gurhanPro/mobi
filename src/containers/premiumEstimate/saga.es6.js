@@ -7,11 +7,8 @@ import * as actions from './actions.es6';
 
 
 export function* getGroupProductsRequestWatcher() {
-  console.log('running saga');
   while (yield take(types.GET_GROUP_PRODUCTS_REQUEST)) {
     try {
-      console.log('running sagaw 2');
-
       const response = yield call(getGroupProducts);
       yield put(actions.getGroupProductsSuccess(response.data));
     } catch (e) {

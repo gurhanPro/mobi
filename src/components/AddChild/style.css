@@ -1,0 +1,26 @@
+.reg-status{
+  text-align: right;
+  color: black;
+  font-weight: 500;
+}
+
+.reg-status-value{
+  color: green;
+}
+
+.gridItem{
+  margin-bottom: 20%;
+}
+
+.next-buttons{
+  background-color: green;
+  width: 100%;
+  padding: 2% 18%;
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 3%;
+}
+.another{
+  background-color: rgb(7, 212, 219);
+  color: black;
+}
